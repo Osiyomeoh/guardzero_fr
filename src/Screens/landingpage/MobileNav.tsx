@@ -38,11 +38,11 @@ const MobileNav = () => {
         <SheetFooter>
           <SheetClose asChild>
             <Link
-              href="/Waitlist"
+              href="/login"
               type="submit"
               className="bg-primary rounded-full px-4 py-2 border-primary text-white text-center"
             >
-              Join Waitlist
+              Get Started
             </Link>
           </SheetClose>
           {/* <SheetClose asChild>

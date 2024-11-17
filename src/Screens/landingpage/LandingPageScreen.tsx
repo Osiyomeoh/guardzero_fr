@@ -1,12 +1,8 @@
 "use client";
-import Nav from "@/src/components/reuseables/Nav";
-import { Button } from "@/src/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { Slide } from "react-awesome-reveal";
 
-import { Star } from "lucide-react";
 import Feature from "./Feature";
 import PlatformFeature from "./PlatformFeature";
 import MobileNav from "./MobileNav";
@@ -59,17 +55,18 @@ function LandingPageScreen() {
           {/* <div className="space-x-4"> */}
           {/* <button className="border border-guardText/50 rounded-full px-4 py-2 bg-[#000]">Login</button> */}
           {/* <button className="bg-primary rounded-full px-4 py-2 border-primary">Sign up</button> */}
-          {/* <Link
-						href="/login"
-						className="bg-primary rounded-full px-4 py-2 border-primary">
-						Get Started
-					</Link> */}
           <Link
+            href="/login"
+            className="bg-primary rounded-full px-4 py-2 border-primary"
+          >
+            Get Started
+          </Link>
+          {/* <Link
             href="/waitlist"
             className="bg-primary rounded-full px-4 py-2 border-primary"
           >
             Join Waitlist
-          </Link>
+          </Link> */}
           {/* </div> */}
         </header>
 
@@ -120,10 +117,10 @@ function LandingPageScreen() {
               </Link>
 
               <Link
-                href="/waitlist"
+                href="/login"
                 className="bg-primary rounded-full px-8 py-3 w-full lg:w-auto border border-primary text-center"
               >
-                Join Waitlist
+                Get Started
               </Link>
             </div>
 
@@ -222,10 +219,10 @@ function LandingPageScreen() {
                 Demo
               </Link>
               <Link
-                href="/waitlist"
-                className="bg-primary rounded-full px-4 py-2"
+                href="/login"
+                className="bg-primary rounded-full px-8 py-3 w-full lg:w-auto border border-primary text-center"
               >
-                Join Waitlist
+                Get Started
               </Link>
             </div>
           </div>
@@ -291,10 +288,10 @@ function LandingPageScreen() {
                 Demo
               </Link>
               <Link
-                href="/waitlist"
-                className="bg-primary rounded-full px-4 py-2"
+                href="/login"
+                className="bg-primary rounded-full px-8 py-3 w-full lg:w-auto border border-primary text-center"
               >
-                Join Waitlist
+                Get Started
               </Link>
             </div>
           </div>
@@ -328,10 +325,10 @@ function LandingPageScreen() {
                 Demo
               </Link>
               <Link
-                href="/waitlist"
-                className="bg-primary rounded-full px-4 py-2"
+                href="/login"
+                className="bg-primary rounded-full px-8 py-3 w-full lg:w-auto border border-primary text-center"
               >
-                Join Waitlist
+                Get Started
               </Link>
             </div>
           </div>
